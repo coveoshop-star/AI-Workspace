@@ -60,3 +60,20 @@ OpenClaw / Hermes / Codex 调用
 2. 晚上检查 `08-Pending`。
 3. 确认高价值内容进入正式知识库。
 4. 把项目相关行动项写入 `00-Current-Tasks.md` 或项目目录。
+
+## GitHub 备份
+
+当前仓库已同步到：
+
+- `https://github.com/coveoshop-star/AI-Workspace`
+
+日常同步推荐使用：
+
+```powershell
+cd D:\AI-Workspace
+.\09-Codex\Sync-KnowledgeBase.ps1 -Message "update knowledge base"
+```
+
+详细流程见：
+
+- `04-SOP/Git-KnowledgeBase-Sync-SOP.md`
