@@ -8,6 +8,8 @@
 - 当前任务：`00-Current-Tasks.md`
 - 总控：`00-Master-Control.md`
 - Agent 规则：`AGENTS.md`
+- LLM Wiki：`09-Index/LLM-Wiki.md`
+- Agent 调用协议：`09-Index/Agent-Access-Protocol.md`
 
 ## 入口与审核
 
@@ -43,6 +45,7 @@
 - Customer Service Prompt：`03-Prompts/Customer-Service`
 - Coding Prompt：`03-Prompts/Coding`
 - Research Prompt：`03-Prompts/Research`
+- Agent Router Prompt：`03-Prompts/Agents/AI-Workspace-Router-Prompt.md`
 
 ## SOP
 
@@ -50,6 +53,16 @@
 - 产品上架：`04-SOP/产品上架.md`
 - 客服回复：`04-SOP/客服回复.md`
 - 网站维护：`04-SOP/网站维护.md`
+- 多工具知识库流程：`04-SOP/Obsidian-Hindsight-LLM-Wiki-Workflow.md`
+- GitHub 同步：`04-SOP/Git-KnowledgeBase-Sync-SOP.md`
+
+## 多工具入口
+
+- Obsidian vault：推荐打开 `D:\AI-Workspace`
+- LLM Wiki：`09-Index/LLM-Wiki.md`
+- Hindsight Queue：`07-Hermes/Memory/Hindsight-Queue.md`
+- Hindsight Memory：`07-Hermes/Memory/Hindsight-Memory.md`
+- OpenClaw KnowledgeBase Agent：`08-OpenClaw/Agents/KnowledgeBase-Agent.md`
 
 ## Agent 读取顺序
 

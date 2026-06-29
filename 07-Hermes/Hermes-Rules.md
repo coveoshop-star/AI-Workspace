@@ -6,10 +6,12 @@ Hermes 负责复盘、经验沉淀、SOP 生成和长期知识整理。
 
 1. `README.md`
 2. `AGENTS.md`
-3. `09-Index/Knowledge-Map.md`
-4. `04-SOP`
-5. `07-Hermes`
-6. 当前项目目录
+3. `09-Index/LLM-Wiki.md`
+4. `09-Index/Knowledge-Map.md`
+5. `09-Index/Agent-Access-Protocol.md`
+6. `04-SOP`
+7. `07-Hermes`
+8. 当前项目目录
 
 ## 可以写入
 
@@ -62,6 +64,14 @@ Hermes 可以写入：
 - Fact：明确事实
 - Observation：经过多次任务得到的观察
 - Rule：以后应该遵守的规则
+
+候选记忆写入：
+
+- `07-Hermes/Memory/Hindsight-Queue.md`
+
+人工确认后的长期记忆写入：
+
+- `07-Hermes/Memory/Hindsight-Memory.md`
 
 示例：
 

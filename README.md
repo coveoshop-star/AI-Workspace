@@ -61,6 +61,22 @@ OpenClaw / Hermes / Codex 调用
 3. 确认高价值内容进入正式知识库。
 4. 把项目相关行动项写入 `00-Current-Tasks.md` 或项目目录。
 
+## 多工具知识库架构
+
+当前目标是让 Obsidian、Hindsight、LLM Wiki、OpenClaw、Hermes 和 Codex 使用同一个知识库。
+
+- Obsidian：直接打开 `D:\AI-Workspace`，用于人工阅读、整理和审核。
+- LLM Wiki：读取 `09-Index/LLM-Wiki.md` 作为 AI 总入口。
+- Hindsight：使用 `07-Hermes/Memory/Hindsight-Queue.md` 和 `07-Hermes/Memory/Hindsight-Memory.md` 管理长期记忆。
+- OpenClaw：读取 `08-OpenClaw/OpenClaw-Rules.md` 和 `08-OpenClaw/Agents/KnowledgeBase-Agent.md`。
+- Hermes：读取 `07-Hermes/Hermes-Rules.md`，负责复盘和 SOP。
+- Codex：读取 `09-Codex/Codex-Rules.md`，负责结构、脚本和同步。
+
+统一协议见：
+
+- `09-Index/Agent-Access-Protocol.md`
+- `04-SOP/Obsidian-Hindsight-LLM-Wiki-Workflow.md`
+
 ## GitHub 备份
 
 当前仓库已同步到：
