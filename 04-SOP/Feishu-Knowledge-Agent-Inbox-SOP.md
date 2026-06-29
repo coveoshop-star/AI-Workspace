@@ -76,3 +76,11 @@ AI 初步整理
 - `02-Knowledge/SEO`
 - `02-Knowledge/WordPress`
 - `04-SOP/SEO检查.md`
+
+## 连通性测试
+
+如果不确定飞书机器人是否已经接入 OpenClaw 和本地知识库，先执行：
+
+- `04-SOP/Feishu-OpenClaw-Connectivity-Test.md`
+
+只有飞书回复、`00-Inbox` 文件生成、`08-Pending` 或 `08-OpenClaw/Workspace` 记录生成三项都满足，才算最小链路打通。

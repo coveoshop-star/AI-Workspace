@@ -53,6 +53,7 @@
 - SEO 检查：`04-SOP/SEO检查.md`
 - 产品页 SEO：`04-SOP/ChewyWell-Product-Page-SEO-SOP.md`
 - 飞书知识导入：`04-SOP/Feishu-Knowledge-Agent-Inbox-SOP.md`
+- 飞书 OpenClaw 连通性测试：`04-SOP/Feishu-OpenClaw-Connectivity-Test.md`
 
 ## Agent 分工
 

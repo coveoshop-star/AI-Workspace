@@ -20,6 +20,15 @@
 - 执行过程记录到 `08-OpenClaw/Workspace`
 - 导出结果写入 `08-OpenClaw/Exports`
 
+## 连通性测试
+
+如果收到标题或正文包含 `AI Workspace Connectivity Test` 的消息：
+
+1. 将原始消息写入 `00-Inbox/2026-06-30-feishu-openclaw-connectivity-test.md`。
+2. 生成审核稿 `08-Pending/2026-06-30-feishu-openclaw-connectivity-test-review.md`。
+3. 不写入正式知识库。
+4. 输出 Inbox 文件、Pending 文件和需要人工确认项。
+
 ## 不允许
 
 - 不直接修改正式知识库。
