@@ -18,6 +18,29 @@
 
 如果 3 点都满足，说明飞书 -> OpenClaw -> AI Workspace 的最小链路已打通。
 
+## 2026-06-30 测试结果
+
+状态：通过，但发现路径需要对齐。
+
+### 已确认
+
+- 飞书机器人已收到测试消息。
+- OpenClaw gateway 已处理消息。
+- OpenClaw 已生成 `00-Inbox` 原始资料。
+- OpenClaw 已生成 `08-Pending` 审核稿。
+- 未触碰正式知识库。
+
+### 需要人工确认
+
+- OpenClaw 当前实际落盘目录为 `D:\DockerApps\openclaw-data\AI-Workspace`，是否要改为直接写入标准目录 `D:\AI-Workspace`。
+- 飞书发送方身份映射是否需要建立。
+- 是否将本流程固化为正式 SOP。
+- 知识库归档层级是否采用现有 `00-Inbox -> 08-Pending -> 正式目录` 流程。
+
+路径桥接方案见：
+
+- `04-SOP/OpenClaw-Path-Bridge-SOP.md`
+
 ## 测试消息
 
 把下面内容发给飞书 Knowledge Agent：

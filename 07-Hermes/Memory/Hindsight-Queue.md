@@ -44,3 +44,16 @@ status: needs-confirmation
 created: 2026-06-30
 reviewer: adair
 ---
+
+### 2026-06-30 | Feishu OpenClaw 链路已打通但路径需对齐
+
+---
+type: observation
+project: AI Workspace
+content: Feishu -> OpenClaw gateway -> 本地落盘的最小链路已通过测试，但 OpenClaw 当前实际落盘目录是 `D:\DockerApps\openclaw-data\AI-Workspace`，需要和标准知识库根目录 `D:\AI-Workspace` 对齐或通过导入脚本桥接。
+source: Feishu OpenClaw connectivity test on 2026-06-30
+confidence: high
+status: needs-confirmation
+created: 2026-06-30
+reviewer: adair
+---

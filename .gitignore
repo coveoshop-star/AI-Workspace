@@ -9,3 +9,6 @@ obsidian/
 *.tmp
 *.temp
 ~$*
+
+# Local private mappings and secrets
+99-Private/

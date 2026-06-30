@@ -56,6 +56,7 @@
 - 多工具知识库流程：`04-SOP/Obsidian-Hindsight-LLM-Wiki-Workflow.md`
 - GitHub 同步：`04-SOP/Git-KnowledgeBase-Sync-SOP.md`
 - 飞书 OpenClaw 连通性测试：`04-SOP/Feishu-OpenClaw-Connectivity-Test.md`
+- OpenClaw 路径桥接：`04-SOP/OpenClaw-Path-Bridge-SOP.md`
 
 ## 多工具入口
 
