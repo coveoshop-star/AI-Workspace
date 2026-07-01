@@ -20,6 +20,16 @@
 - 执行过程记录到 `08-OpenClaw/Workspace`
 - 导出结果写入 `08-OpenClaw/Exports`
 
+## 视频链接规则
+
+如果收到 YouTube / 视频链接或单独视频 ID，但无法确认标题、频道、简介或字幕：
+
+1. 不要猜测视频内容。
+2. 先把链接或视频 ID 写入 `00-Inbox`。
+3. 使用 `00-Inbox/_Templates/Video-Link-Inbox-Template.md`。
+4. 只有用户明确授权后，才尝试浏览器抓取或安装 `yt-dlp`。
+5. 抓取成功后，再生成 `08-Pending` 审核稿。
+
 ## 连通性测试
 
 如果收到标题或正文包含 `AI Workspace Connectivity Test` 的消息：

@@ -55,6 +55,7 @@
 - 飞书知识导入：`04-SOP/Feishu-Knowledge-Agent-Inbox-SOP.md`
 - 飞书 OpenClaw 连通性测试：`04-SOP/Feishu-OpenClaw-Connectivity-Test.md`
 - OpenClaw 路径桥接：`04-SOP/OpenClaw-Path-Bridge-SOP.md`
+- 视频链接入库：`04-SOP/Video-Link-Inbox-SOP.md`
 
 ## Agent 分工
 
